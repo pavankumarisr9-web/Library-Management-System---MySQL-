@@ -6,49 +6,55 @@ The system replicates real-world library operations such as book availability, l
 
 **Tools & Skills Used**
 
-MySQL / SQL – for database design and query execution
+- MySQL / SQL – for database design and query execution
 
-ER Diagram – to visualize core entity relationships
+- ER Diagram – to visualize core entity relationships
 
-Joins, Subqueries & Aggregations – for detailed data retrieval
+- Joins, Subqueries & Aggregations – for detailed data retrieval
 
-Data Modeling & Normalization – to maintain accuracy and reduce redundancy
+- Data Modeling & Normalization – to maintain accuracy and reduce redundancy
 
-Database Design Concepts – primary keys, foreign keys, constraints
+- Database Design Concepts – primary keys, foreign keys, constraints
 
 **Key Insights & Analyses**
 
-Retrieved the number of copies of a specific book (“The Lost Tribe”) across different branches.
+- Retrieved the number of copies of a specific book (“The Lost Tribe”) across different branches.
 
-Identified borrowers who currently have no books checked out.
+- Identified borrowers who currently have no books checked out.
 
-Analyzed loan details for specific branches and due dates.
+- Analyzed loan details for specific branches and due dates.
 
-Calculated the total number of books loaned from each library branch.
+- Calculated the total number of books loaned from each library branch.
 
-Retrieved borrowers with more than five active loans.
+- Retrieved borrowers with more than five active loans.
 
-Extracted branch-level book availability for authors like Stephen King.
+- Extracted branch-level book availability for authors like Stephen King.
 
 **Database Design Highlights**
 
-Built 7 interconnected tables representing all library operations:
+- Built 7 interconnected tables representing all library operations:
 
-Publisher → Book → Book Authors
+- Publisher → Book → Book Authors
 
-Book → Book Copies → Library Branch
+- Book → Book Copies → Library Branch
 
-Borrower → Book Loans
+- Borrower → Book Loans
 
-All tables are connected through Primary & Foreign Keys to maintain referential integrity and ensure consistent data flow across the system.
+- All tables are connected through Primary & Foreign Keys to maintain referential integrity and ensure consistent data flow across the system.
 
 **Project Features**
-Feature	Description
-Relational Design	Built a normalized database with 7 tables and clear constraints
-Advanced Queries	Used joins, subqueries, and aggregate functions
-Insights Extraction	Identified book availability, borrower patterns, and branch-level activity
-Data Consistency	Enforced using foreign key relationships
-Structured Presentation	Explained with ER diagram and real-world examples
+
+- Feature	Description
+
+- Relational Design	Built a normalized database with 7 tables and clear constraints
+
+- Advanced Queries	Used joins, subqueries, and aggregate functions
+
+- Insights Extraction	Identified book availability, borrower patterns, and branch-level activity
+
+- Data Consistency	Enforced using foreign key relationships
+
+- Structured Presentation	Explained with ER diagram and real-world examples
 
 **What I Learned**
 
